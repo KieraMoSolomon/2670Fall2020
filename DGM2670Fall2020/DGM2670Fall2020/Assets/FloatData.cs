@@ -7,9 +7,5 @@ using UnityEngine.UIElements.Experimental;
 public class FloatData : ScriptableObject
 {
     public float value;
-
-    public virtual float Value()
-    { 
-        { return value; }
-    }
+    
 }

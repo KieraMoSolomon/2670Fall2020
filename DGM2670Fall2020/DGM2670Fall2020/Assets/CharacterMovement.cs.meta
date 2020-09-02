@@ -3,7 +3,13 @@ guid: 3d7fcf3c930bc4546bbe4cf293bdec66
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - speed: {instanceID: 0}
+  - jumpForce: {instanceID: 0}
+  - gravity: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
+  - moveX: {instanceID: 0}
+  - moveY: {instanceID: 0}
+  - moveZ: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
