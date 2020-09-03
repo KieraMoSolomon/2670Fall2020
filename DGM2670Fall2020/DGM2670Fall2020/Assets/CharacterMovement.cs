@@ -4,11 +4,10 @@ public class CharacterMovement : MonoBehaviour
 {
     public FloatData speed;
     public FloatData jumpForce;
-    public FloatData gravity;
-
-    public FloatData moveX, moveY, moveZ;
-    
-    private Vector3 moveDirection = Vector3.zero;
+    public FloatData gravity, rotateSpeed;
+    public IntData jumpCount ,jumpCountMax;
+    private float yVar;
+    private Vector3 moveDirection;
     private CharacterController controller;
     // Start is called before the first frame update
     void Start()
@@ -19,18 +18,27 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (controller.isGrounded)
-        {
-            moveDirection.Set(moveX.value, moveY.value, moveZ.value);
-            moveDirection = transform.TransformDirection((moveDirection));
-            moveDirection = speed.value * moveDirection;
-            if (Input.GetButton("Jump"))
-            {
-                moveDirection.y = jumpForce.value;
-            }
-        }
+        var vInput = Input.GetAxis("Vertical") * speed.value;
+            moveDirection.Set(vInput, yVar, 0);
 
-        moveDirection.y -= gravity.value * Time.deltaTime;
+            var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed.value;
+            transform.Rotate(0, hInput, 0);
+
+            yVar -= gravity.value*Time.deltaTime;
+            
+            if (controller.isGrounded && moveDirection.y < 0)
+            {
+                yVar = -1f;
+                jumpCount.value = 0;
+            }
+
+            if (Input.GetButtonDown("Jump") && jumpCount.value < jumpCountMax.value)
+            {
+                yVar = jumpForce.value;
+                jumpCount.value++;
+            }
+
+            moveDirection = transform.TransformDirection(moveDirection);
         controller.Move(moveDirection * Time.deltaTime);
     }
 }

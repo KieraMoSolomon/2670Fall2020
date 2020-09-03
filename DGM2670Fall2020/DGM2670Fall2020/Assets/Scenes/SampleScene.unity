@@ -313,12 +313,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d7fcf3c930bc4546bbe4cf293bdec66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
-  jumpForce: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
-  gravity: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
-  moveX: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
-  moveY: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
-  moveZ: {fileID: 11400000, guid: 7cef3c38ff6194c17a78062b12e4dd9a, type: 2}
+  speed: {fileID: 11400000, guid: 60e39b0771d6c47db8a9d87f9dbe3602, type: 2}
+  jumpForce: {fileID: 11400000, guid: b53e17e4bbb60476480a557b1a97618e, type: 2}
+  gravity: {fileID: 11400000, guid: cdb06fb80346a43d095f86d54365e9c5, type: 2}
+  rotateSpeed: {fileID: 11400000, guid: 2a7c24e770f1e4b2e8af998236fa64c5, type: 2}
+  jumpCount: {fileID: 11400000, guid: 375f90343eb794fb99d29644ef8ede65, type: 2}
+  jumpCountMax: {fileID: 11400000, guid: 9e074e00657bb46bebb5d4abb5098359, type: 2}
 --- !u!65 &575464236
 BoxCollider:
   m_ObjectHideFlags: 0
