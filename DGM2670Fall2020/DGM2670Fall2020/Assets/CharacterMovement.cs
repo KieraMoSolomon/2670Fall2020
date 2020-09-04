@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
@@ -24,8 +25,8 @@ public class CharacterMovement : MonoBehaviour
             var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed.value;
             transform.Rotate(0, hInput, 0);
 
-            yVar -= gravity.value*Time.deltaTime;
-            
+            yVar -= gravity.value * Time.deltaTime;
+
             if (controller.isGrounded && moveDirection.y < 0)
             {
                 yVar = -1f;
