@@ -1,13 +1,12 @@
-﻿using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
-    public FloatData speed;
+    public FloatData walkSpeed, runSpeed;
     public FloatData jumpForce;
     public FloatData gravity, rotateSpeed;
     public IntData jumpCount ,jumpCountMax;
-    private float yVar;
+    private float yVar, speed;
     private Vector3 moveDirection;
     private CharacterController controller;
     // Start is called before the first frame update
@@ -19,14 +18,14 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var vInput = Input.GetAxis("Vertical") * speed.value;
+        var vInput = Input.GetAxis("Vertical") * SpeedSet();
             moveDirection.Set(vInput, yVar, 0);
 
             var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed.value;
             transform.Rotate(0, hInput, 0);
 
             yVar -= gravity.value * Time.deltaTime;
-
+            
             if (controller.isGrounded && moveDirection.y < 0)
             {
                 yVar = -1f;
@@ -41,5 +40,17 @@ public class CharacterMovement : MonoBehaviour
 
             moveDirection = transform.TransformDirection(moveDirection);
         controller.Move(moveDirection * Time.deltaTime);
+    }
+
+    private float SpeedSet()
+    {
+        if (Input.GetKey(KeyCode.Z))
+        {
+            return runSpeed.value;
+        }
+        else
+        {
+            return walkSpeed.value;
+        }
     }
 }
