@@ -6,6 +6,7 @@ public class CharacterMovement : MonoBehaviour
     public FloatData jumpForce;
     public FloatData gravity, rotateSpeed;
     public IntData jumpCount ,jumpCountMax;
+    public BoolData canJump;
     private float yVar, speed;
     private Vector3 moveDirection;
     private CharacterController controller;
@@ -28,14 +29,14 @@ public class CharacterMovement : MonoBehaviour
             
             if (controller.isGrounded && moveDirection.y < 0)
             {
-                yVar = -1f;
                 jumpCount.value = 0;
             }
-
-            if (Input.GetButtonDown("Jump") && jumpCount.value < jumpCountMax.value)
+            
+            if (Input.GetButtonDown("Jump") && jumpCount.value <= jumpCountMax.value && canJump.value)
             {
                 yVar = jumpForce.value;
                 jumpCount.value++;
+                Debug.Log(jumpCount.value);
             }
 
             moveDirection = transform.TransformDirection(moveDirection);
