@@ -9,6 +9,7 @@
           <e p="ChangeMovePattern.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="HealthPattern.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="MoveData.cs" t="Include" />
         </e>
