@@ -294,6 +294,7 @@ GameObject:
   - component: {fileID: 575464236}
   - component: {fileID: 575464240}
   - component: {fileID: 575464235}
+  - component: {fileID: 575464241}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -408,6 +409,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &575464241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575464234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8981243a1b842dbb4250015a1a6720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myHeath: {fileID: 11400000, guid: 3c102856ad57f43c89d8788e5aa8cdeb, type: 2}
+  startHealth: {fileID: 11400000, guid: 60e39b0771d6c47db8a9d87f9dbe3602, type: 2}
+  deathMovement: {fileID: 11400000, guid: e6d6e6a5dbccc490888d13b2f53fb156, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
