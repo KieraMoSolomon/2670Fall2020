@@ -10,12 +10,19 @@ public class HealthPattern : MonoBehaviour
     void Start()
     {
         myHeath.value = startHealth.value;
+        Debug.Log(myHeath.value);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (myHeath.value == 0)
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            myHeath.value--;
+            
+            Debug.Log(myHeath.value);
+        }
+        if (myHeath.value <= 0)
         {
             Debug.Log("You died");
             GetComponent<CharacterMovement>().movePattern = deathMovement;
