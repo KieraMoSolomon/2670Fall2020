@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPattern.cs" />
       </list>
     </option>

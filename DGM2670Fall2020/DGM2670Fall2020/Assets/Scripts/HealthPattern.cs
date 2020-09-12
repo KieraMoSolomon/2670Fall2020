@@ -26,6 +26,7 @@ public class HealthPattern : MonoBehaviour
         {
             Debug.Log("You died");
             GetComponent<CharacterMovement>().movePattern = deathMovement;
+            //respawn
             //die
         }
     }
