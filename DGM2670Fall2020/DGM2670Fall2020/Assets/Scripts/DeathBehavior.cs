@@ -7,8 +7,13 @@ using UnityEngine.UIElements;
 public class DeathBehavior : MonoBehaviour
 {
     public SpawnData startPoint;
-    private void OnTriggerEnter(Collider other)
+    private Vector3 deathSpawn;
+    public void OnTriggerEnter(Collider other)
     {
-        other.transform.position = startPoint.valueX;
+        deathSpawn = startPoint.value;
+        Debug.Log("Trigger!!!!");
+        //other.transform.position = startPoint.value;
+        
+        other.gameObject.transform.position = deathSpawn;
     }
 }
