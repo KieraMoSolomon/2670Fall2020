@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CharacterSpawn : MonoBehaviour
 {
-    public SpawnData startSpawn;
+    public SpawnData vData;
     
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.transform.position = startSpawn.value;
+        gameObject.transform.position = vData.value;
     }
 
 }

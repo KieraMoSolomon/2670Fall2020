@@ -4,8 +4,8 @@ public class SpawnData : ScriptableObject
 {
     public Vector3 value;
 
-    public Vector3 SetPosition()
+    public void SetValueFromTransform(Vector3 obj)
     {
-        return value;
+        value = obj;
     }
 }

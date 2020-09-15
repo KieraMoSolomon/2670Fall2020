@@ -9,6 +9,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -19,10 +21,14 @@
         <option value="$PROJECT_DIR$/Assets/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPattern.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeathBehavior.cs" />
       </list>
     </option>
   </component>

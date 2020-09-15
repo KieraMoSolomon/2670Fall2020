@@ -15,5 +15,6 @@ public class DeathBehavior : MonoBehaviour
         //other.transform.position = startPoint.value;
         
         other.gameObject.transform.position = deathSpawn;
+        
     }
 }

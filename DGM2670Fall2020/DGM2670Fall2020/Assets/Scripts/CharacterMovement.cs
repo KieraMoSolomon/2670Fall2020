@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class CharacterMovement : MonoBehaviour
     public MoveData movePattern;
     private Vector3 moveDirection;
     private CharacterController controller;
+
+    public SpawnData currentSpawnPoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +23,10 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         movePattern.Move(controller, transform);
+    }
+
+    private void OnEnable()
+    {
+        transform.position = currentSpawnPoint.value;
     }
 }
