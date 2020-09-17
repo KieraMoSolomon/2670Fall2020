@@ -14,7 +14,5 @@ public class ApplyForce : MonoBehaviour
         var forceDirection = new  Vector3(force.value, 0, 0);
         //force direction needs to be based on player rotation (hint Scriptable Object)
         rBody.AddRelativeForce(forceDirection);
-        
     }
-    //need a firing Method
 }

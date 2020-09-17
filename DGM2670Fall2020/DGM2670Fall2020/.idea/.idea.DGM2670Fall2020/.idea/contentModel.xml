@@ -15,7 +15,10 @@
           <e p="HealthPattern.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="Lerping.cs" t="Include" />
+          <e p="LookAt.cs" t="Include" />
           <e p="MoveData.cs" t="Include" />
+          <e p="MoveLocator.cs" t="Include" />
           <e p="SpawnData.cs" t="Include" />
         </e>
       </e>

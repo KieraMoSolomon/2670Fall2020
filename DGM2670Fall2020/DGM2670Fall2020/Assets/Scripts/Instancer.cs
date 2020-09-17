@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,14 @@ public class Instancer : MonoBehaviour
 {
     public GameObject prefab;
     //Make a method to call the instance Method
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Instance();
+        }
+    }
+
     public void Instance()
     {
         var location = transform.position;
