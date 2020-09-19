@@ -1,20 +1,18 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UIElements;
+﻿using UnityEngine;
 
 public class DeathBehavior : MonoBehaviour
 {
     public SpawnData startPoint;
-    private Vector3 deathSpawn;
+    public GameObject obj;
     public void OnTriggerEnter(Collider other)
-    {
-        deathSpawn = startPoint.value;
+    {  
         Debug.Log("Trigger!!!!");
-        //other.transform.position = startPoint.value;
+        Debug.Log(obj.transform.position);
+        obj.transform.position = startPoint.value;
+        Debug.Log(obj.transform.position);
+
+        other.transform.position = startPoint.value;
         
-        other.gameObject.transform.position = deathSpawn;
         
     }
 }
