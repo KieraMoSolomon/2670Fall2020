@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 11400000, guid: 52ce0b2df9f264e7d84e43cfcdc716cd, type: 2}
-  obj: {fileID: 575464234}
+  obj: {fileID: 575464239}
 --- !u!65 &419358770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -375,7 +375,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419358768}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &419358773
 Transform:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 11400000, guid: 23ce9943d97fe418eb10e1dae8718531, type: 2}
-  obj: {fileID: 575464234}
+  obj: {fileID: 575464239}
 --- !u!65 &563759043
 BoxCollider:
   m_ObjectHideFlags: 0
