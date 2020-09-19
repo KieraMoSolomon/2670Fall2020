@@ -3,7 +3,7 @@
 public class DeathBehavior : MonoBehaviour
 {
     public SpawnData startPoint;
-    public GameObject obj;
+    public Transform obj;
     public void OnTriggerEnter(Collider other)
     {  
         Debug.Log("Trigger!!!!");
@@ -11,7 +11,7 @@ public class DeathBehavior : MonoBehaviour
         obj.transform.position = startPoint.value;
         Debug.Log(obj.transform.position);
 
-        other.transform.position = startPoint.value;
+        //other.transform.position = startPoint.value;
         
         
     }
