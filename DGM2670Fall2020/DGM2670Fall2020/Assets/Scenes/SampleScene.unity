@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startPoint: {fileID: 11400000, guid: 52ce0b2df9f264e7d84e43cfcdc716cd, type: 2}
-  obj: {fileID: 575464239}
+  obj: {fileID: 575464234}
 --- !u!65 &419358770
 BoxCollider:
   m_ObjectHideFlags: 0
