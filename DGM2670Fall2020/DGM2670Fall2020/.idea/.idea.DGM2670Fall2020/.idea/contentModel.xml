@@ -12,6 +12,7 @@
           <e p="CharacterSpawn.cs" t="Include" />
           <e p="CheckPoint.cs" t="Include" />
           <e p="DeathBehavior.cs" t="Include" />
+          <e p="FireAmmo.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthPattern.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />

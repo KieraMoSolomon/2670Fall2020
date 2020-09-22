@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeathBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
       </list>
     </option>
   </component>
