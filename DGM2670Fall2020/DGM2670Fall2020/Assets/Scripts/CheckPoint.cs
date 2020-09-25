@@ -8,6 +8,6 @@ public class CheckPoint : MonoBehaviour
     public Vector3Data checkPoint;
     private void OnTriggerEnter(Collider other)
     {
-        checkPoint.SetValueFromTransform(transform.position);
+        checkPoint.SetValueFromVector3(transform.position);
     }
 }

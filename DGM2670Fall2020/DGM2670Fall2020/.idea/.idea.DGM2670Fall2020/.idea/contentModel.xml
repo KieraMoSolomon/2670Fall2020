@@ -6,23 +6,29 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ApplyForce.cs" t="Include" />
-          <e p="BoolData.cs" t="Include" />
+          <e p="Behaviours" t="Include">
+            <e p="MouseLocationBehaviour.cs" t="Include" />
+          </e>
           <e p="ChangeMovePattern.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="CharacterSpawn.cs" t="Include" />
           <e p="CheckPoint.cs" t="Include" />
           <e p="DeathBehavior.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
           <e p="HealthPattern.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
-          <e p="IntData.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
           <e p="MouseEventBehaviour.cs" t="Include" />
-          <e p="MoveData.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
+          <e p="ScriptableObjects" t="Include">
+            <e p="BoolData.cs" t="Include" />
+            <e p="Debugger.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="MoveData.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
+          </e>
           <e p="SelfDestruct.cs" t="Include" />
-          <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670Fall2020.sln" t="IncludeFlat" />
