@@ -12,7 +12,7 @@ public class CharacterMovement : MonoBehaviour
     private Vector3 moveDirection;
     private CharacterController controller;
 
-    public SpawnData currentSpawnPoint;
+    public Vector3Data currentSpawnPoint;
     // Start is called before the first frame update
     void Start()
     {

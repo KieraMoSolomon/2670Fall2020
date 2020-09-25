@@ -12,18 +12,17 @@
           <e p="CharacterSpawn.cs" t="Include" />
           <e p="CheckPoint.cs" t="Include" />
           <e p="DeathBehavior.cs" t="Include" />
-          <e p="FireAmmo.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthPattern.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
-          <e p="LookAt.cs" t="Include" />
+          <e p="LookAtBehaviour.cs" t="Include" />
+          <e p="MouseEventBehaviour.cs" t="Include" />
           <e p="MoveData.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
-          <e p="Score.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
-          <e p="SpawnData.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670Fall2020.sln" t="IncludeFlat" />

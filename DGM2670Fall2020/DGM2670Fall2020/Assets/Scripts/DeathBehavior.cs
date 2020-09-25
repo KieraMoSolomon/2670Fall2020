@@ -2,7 +2,7 @@
 
 public class DeathBehavior : MonoBehaviour
 {
-    public SpawnData startPoint;
+    public Vector3Data startPoint;
     public GameObject obj;
     public void OnTriggerEnter(Collider other)
     {  

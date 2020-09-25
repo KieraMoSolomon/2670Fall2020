@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UIElements;
 
-public class FireAmmo : MonoBehaviour
+public class MouseEventBehaviour : MonoBehaviour
 {
     public UnityEvent mouseDownEvent;
     public void OnMouseDown()
     {
-        mouseDownEvent.invoke();
+        mouseDownEvent.Invoke();
     }
     
 }

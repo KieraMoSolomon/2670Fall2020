@@ -8,13 +8,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,18 +28,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthPattern.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeathBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeathBehavior.cs" />
       </list>
     </option>
   </component>

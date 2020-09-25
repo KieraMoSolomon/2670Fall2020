@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    public SpawnData checkPoint;
+    public Vector3Data checkPoint;
     private void OnTriggerEnter(Collider other)
     {
         checkPoint.SetValueFromTransform(transform.position);
