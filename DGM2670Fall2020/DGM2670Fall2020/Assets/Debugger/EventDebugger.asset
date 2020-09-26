@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0f126db223e74ae78b4f643240bcf0e, type: 3}
-  m_Name: New Debugger
+  m_Name: EventDebugger
   m_EditorClassIdentifier: 
