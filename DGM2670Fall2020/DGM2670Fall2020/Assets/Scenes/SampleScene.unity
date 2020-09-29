@@ -197,7 +197,6 @@ GameObject:
   - component: {fileID: 341901181}
   - component: {fileID: 341901180}
   - component: {fileID: 341901184}
-  - component: {fileID: 341901185}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -299,29 +298,52 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 334158b79de5043e2acbb04076b320b9, type: 2}
         m_TargetAssemblyTypeName: Vector3Data, Assembly-CSharp
-        m_MethodName: SetValueFromPosition
+        m_MethodName: SetFromMousePosition
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 963194227}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Camera, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Ground
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 455925721}
+        m_TargetAssemblyTypeName: LookAtBehaviour, Assembly-CSharp
+        m_MethodName: OnLook
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 334158b79de5043e2acbb04076b320b9, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: aaaff31831379483b890dc40a145a209, type: 2}
+        m_TargetAssemblyTypeName: Vector3Data, Assembly-CSharp
+        m_MethodName: SetValueFromRotation
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 455925717}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &341901185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 341901179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fc695ee3b3934a6499fbec8e6947544, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locationData: {fileID: 0}
+      - m_Target: {fileID: 1729259293}
+        m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
+        m_MethodName: Instance
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &419358768
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +466,7 @@ GameObject:
   - component: {fileID: 455925720}
   - component: {fileID: 455925719}
   - component: {fileID: 455925718}
+  - component: {fileID: 455925721}
   m_Layer: 0
   m_Name: LookAtGun
   m_TagString: Untagged
@@ -528,6 +551,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455925716}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &455925721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455925716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b225cecc21db240a1a8e5bfca0869afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &563759041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1211,7 @@ GameObject:
   - component: {fileID: 1729259290}
   - component: {fileID: 1729259292}
   - component: {fileID: 1729259291}
+  - component: {fileID: 1729259293}
   m_Layer: 0
   m_Name: InstancePoint
   m_TagString: Untagged
@@ -1246,3 +1282,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729259289}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1729259293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729259289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b30073f080e43b09301875179cb1d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6066473866762070015, guid: e9edf4e2d67904d5cac060feedb77f0a, type: 3}
+  rotationDirection: {fileID: 11400000, guid: aaaff31831379483b890dc40a145a209, type: 2}
