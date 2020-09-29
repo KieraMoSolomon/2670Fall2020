@@ -48,6 +48,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
       </list>
     </option>
   </component>

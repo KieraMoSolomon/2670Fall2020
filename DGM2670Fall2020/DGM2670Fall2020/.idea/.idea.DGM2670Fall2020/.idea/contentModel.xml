@@ -14,7 +14,6 @@
           <e p="CharacterSpawn.cs" t="Include" />
           <e p="CheckPoint.cs" t="Include" />
           <e p="DeathBehavior.cs" t="Include" />
-          <e p="HealthPattern.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="LookAtBehaviour.cs" t="Include" />
@@ -29,6 +28,7 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="SelfDestruct.cs" t="Include" />
+          <e p="TriggerEventBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="DGM2670Fall2020.sln" t="IncludeFlat" />
