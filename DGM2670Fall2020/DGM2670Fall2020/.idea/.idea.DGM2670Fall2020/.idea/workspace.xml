@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/../../../2221Fall2020/DGM2221Fall2020/SandBoxWalkAndRun/New Unity Project/Assets/Scripts/ScriptableObjects/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMovement.cs" />
       </list>
     </option>
   </component>
@@ -97,10 +98,11 @@
       <screen x="1440" y="-74" width="1680" height="922" />
     </state>
     <state x="2313" y="-44" width="652" height="754" key="dock-window-2/1440.-74.1680.922/0.23.1440.877@1440.-74.1680.922" timestamp="1602133880413" />
-    <state x="329" y="23" width="559" height="718" key="dock-window-3" timestamp="1602261855908">
+    <state x="329" y="23" width="559" height="718" key="dock-window-3" timestamp="1602393878894">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="329" y="23" width="559" height="718" key="dock-window-3/0.23.1440.877@0.23.1440.877" timestamp="1602261855908" />
+    <state x="329" y="23" width="559" height="718" key="dock-window-3/1440.-74.1680.922/0.23.1440.877@0.23.1440.877" timestamp="1602393878894" />
     <state x="2118" y="-74" width="652" height="754" key="dock-window-3/1440.-74.1680.922/0.23.1440.877@1440.-74.1680.922" timestamp="1602133880414" />
   </component>
 </project>

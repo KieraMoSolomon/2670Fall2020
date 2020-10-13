@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: {fileID: 11400000, guid: 60e39b0771d6c47db8a9d87f9dbe3602, type: 2}
   runSpeed: {fileID: 11400000, guid: b53e17e4bbb60476480a557b1a97618e, type: 2}
-  jumpForce: {fileID: 11400000, guid: b53e17e4bbb60476480a557b1a97618e, type: 2}
+  jumpForce: {fileID: 11400000, guid: 5c6148524dcd843d297be8fb3eea1faa, type: 2}
   gravity: {fileID: 11400000, guid: cdb06fb80346a43d095f86d54365e9c5, type: 2}
   rotateSpeed: {fileID: 11400000, guid: 2a7c24e770f1e4b2e8af998236fa64c5, type: 2}
   jumpCount: {fileID: 11400000, guid: 375f90343eb794fb99d29644ef8ede65, type: 2}
   jumpCountMax: {fileID: 11400000, guid: 9e074e00657bb46bebb5d4abb5098359, type: 2}
   canJump: {fileID: 11400000, guid: 1802c943544a5491f850fd0861072fed, type: 2}
-  yVar: -121.49418
+  yVar: -97.391304
