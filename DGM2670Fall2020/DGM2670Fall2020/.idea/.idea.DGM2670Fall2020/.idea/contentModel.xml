@@ -14,6 +14,7 @@
             <e p="DeathBehavior.cs" t="Include" />
             <e p="Instancer.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
+            <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventBehaviour.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />

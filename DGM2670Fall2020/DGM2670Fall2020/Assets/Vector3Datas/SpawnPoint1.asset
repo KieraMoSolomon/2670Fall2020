@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abe31e9cd00d041fb93f0307e4a16a8a, type: 3}
   m_Name: SpawnPoint1
   m_EditorClassIdentifier: 
-  value: {x: 0, y: 0, z: 0}
+  value: {x: -3.3, y: 0, z: 0}
