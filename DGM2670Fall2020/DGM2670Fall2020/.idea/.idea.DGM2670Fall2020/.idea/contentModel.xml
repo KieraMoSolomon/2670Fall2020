@@ -26,6 +26,7 @@
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="MoveData.cs" t="Include" />
+            <e p="StringListData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
         </e>
