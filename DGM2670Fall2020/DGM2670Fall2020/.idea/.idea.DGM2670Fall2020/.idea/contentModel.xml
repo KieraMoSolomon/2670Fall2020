@@ -8,6 +8,7 @@
           <e p="Behaviours" t="Include">
             <e p="ApplyForce.cs" t="Include" />
             <e p="ChangeMovePattern.cs" t="Include" />
+            <e p="CharacterKnockBack.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
             <e p="CharacterSpawn.cs" t="Include" />
             <e p="CheckPoint.cs" t="Include" />

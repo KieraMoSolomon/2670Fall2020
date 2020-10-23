@@ -4,6 +4,9 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class ApplyForce : MonoBehaviour
 {
+    //direction of hit
+    //run coroutine on a hit
+    
     private Rigidbody rBody;
 
     public FloatData force;
