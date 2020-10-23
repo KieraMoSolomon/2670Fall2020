@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class CharacterKnockBack : MonoBehaviour
@@ -10,7 +9,6 @@ public class CharacterKnockBack : MonoBehaviour
     private float tempForce;
     //private float countDown;
 
-    
     private void Start()
     {
         tempForce = knockBackForce;
