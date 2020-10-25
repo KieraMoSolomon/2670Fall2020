@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class CharacterKnockBack : MonoBehaviour
 {
     public CharacterController controller;
-    public Vector3 knockBackVector;
+    public Vector3 knockBackVector, move;
     public float knockBackForce = 50f;
     private float tempForce;
     //private float countDown;
@@ -14,15 +15,36 @@ public class CharacterKnockBack : MonoBehaviour
         tempForce = knockBackForce;
     }
     
-    private IEnumerator OnTriggerEnter(Collider other)
+    private IEnumerator KnockBack(ControllerColliderHit hit)
     {
-        knockBackForce = tempForce;
-        while (knockBackForce > 0)
+        var i = 2f;
+        move = hit.collider.attachedRigidbody.velocity * i;
+        while (i > 0)
         {
-            knockBackVector.x = knockBackForce * Time.deltaTime;
-            controller.Move(knockBackVector);
-            knockBackForce -= 0.1f;
             yield return new WaitForFixedUpdate();
+            i -= 0.1f;
         }
+        move = Vector3.left;
+    }
+
+    public float pushPower = 10.0f;
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        StartCoroutine(KnockBack(hit));
+        var body = hit.collider.attachedRigidbody;
+
+        if (body == null || body.isKinematic)
+        {
+            return;
+        }
+
+        if (hit.moveDirection.y < -0.3)
+        {
+         return;   
+        }
+        
+        var pushDirection = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z);
+        body.velocity = pushDirection * pushPower;
     }
 }
