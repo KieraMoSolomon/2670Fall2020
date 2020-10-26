@@ -24,7 +24,7 @@ public class CharacterKnockBack : MonoBehaviour
             yield return new WaitForFixedUpdate();
             i -= 0.1f;
         }
-        move = Vector3.left;
+        move = Vector3.back;
     }
 
     public float pushPower = 10.0f;
