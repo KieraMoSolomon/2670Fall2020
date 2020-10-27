@@ -11,13 +11,14 @@ public class CharacterMovement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        StartCoroutine(movePattern.Move(controller, transform));
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         movePattern.Move(controller, transform);
-    }
+    }*/
     
     
         public Vector3 knockBackVector;

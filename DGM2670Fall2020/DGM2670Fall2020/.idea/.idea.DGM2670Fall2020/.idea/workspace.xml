@@ -50,10 +50,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterKnockBack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ChangeMovePattern.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MoveData.cs" />
       </list>
     </option>
   </component>
