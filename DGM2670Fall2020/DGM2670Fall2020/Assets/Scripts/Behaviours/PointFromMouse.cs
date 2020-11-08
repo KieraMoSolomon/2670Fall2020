@@ -6,7 +6,7 @@ using UnityEngine;
 public class PointFromMouse : MonoBehaviour
 {
     private Camera cam;
-    private Vector3Data mouseLocation;
+    public Vector3Data mouseLocation;
     public void Start()
     {
         cam = Camera.main;
@@ -16,7 +16,7 @@ public class PointFromMouse : MonoBehaviour
     {
         if(Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition),out var hit, 100))
         {
-            mouseLocation = hit.point;
+            mouseLocation.value = hit.point;
         }
     }
 }
