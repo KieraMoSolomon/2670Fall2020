@@ -8,10 +8,13 @@ public class AIBehaviour : MonoBehaviour
     private bool canNav;
     private NavMeshAgent agent;
     private WaitForFixedUpdate wffu;
+    private WaitForSeconds wfs;
     
+    public float holdTime = 2f;
     public Transform player;
     private void Start()
     {
+        wfs = new WaitForSeconds(holdTime);
         wffu = new WaitForFixedUpdate();
         agent = GetComponent<NavMeshAgent>();
     }
@@ -19,10 +22,17 @@ public class AIBehaviour : MonoBehaviour
     private IEnumerator OnTriggerEnter(Collider other)
     {
         canNav = true;
-        while (canNav)
+        agent.destination = player.position;
+        var distance = agent.remainingDistance;
+        while (distance <= 0.25f)
         {
+            distance = agent.remainingDistance;
             yield return wffu;
-            agent.destination = player.position;
+        }
+        yield return wfs;
+        if (canNav)
+        {
+            StartCoroutine(OnTriggerEnter(other));
         }
     }
 

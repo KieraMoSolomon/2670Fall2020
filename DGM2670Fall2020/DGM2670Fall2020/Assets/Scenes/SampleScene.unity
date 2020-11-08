@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 341901181}
   - component: {fileID: 341901180}
   - component: {fileID: 341901184}
+  - component: {fileID: 341901185}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -344,6 +345,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &341901185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341901179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831f4f93dc9114e6685f89b8dcbb8903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseLocation: {fileID: 11400000, guid: aaaff31831379483b890dc40a145a209, type: 2}
 --- !u!1 &419358768
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,7 +424,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -702,13 +716,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 575464234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d7fcf3c930bc4546bbe4cf293bdec66, type: 3}
+  m_Script: {fileID: 11500000, guid: b5340bea217904cf69529a452dad26f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movePattern: {fileID: 11400000, guid: 52c215f63603e48f5be63034c1e1822f, type: 2}
-  knockBackVector: {x: 0, y: 0, z: 0}
-  knockBackForce: 10
-  pushPower: 10
+  mouseLocation: {fileID: 11400000, guid: aaaff31831379483b890dc40a145a209, type: 2}
+  walkSpeed: {fileID: 11400000, guid: 60e39b0771d6c47db8a9d87f9dbe3602, type: 2}
+  runSpeed: {fileID: 11400000, guid: b53e17e4bbb60476480a557b1a97618e, type: 2}
+  jumpForce: {fileID: 11400000, guid: e973f9379162a4e39853f287a116572d, type: 2}
+  gravity: {fileID: 11400000, guid: cdb06fb80346a43d095f86d54365e9c5, type: 2}
+  rotateSpeed: {fileID: 11400000, guid: 2a7c24e770f1e4b2e8af998236fa64c5, type: 2}
+  jumpCount: {fileID: 11400000, guid: 375f90343eb794fb99d29644ef8ede65, type: 2}
+  jumpCountMax: {fileID: 11400000, guid: 8b951200c351f49f780ef94d4d7b0ea6, type: 2}
+  canJump: {fileID: 11400000, guid: 1802c943544a5491f850fd0861072fed, type: 2}
+  yVar: 0
 --- !u!23 &575464237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1311,6 +1331,7 @@ GameObject:
   - component: {fileID: 1798062916}
   - component: {fileID: 1798062913}
   - component: {fileID: 1798062914}
+  - component: {fileID: 1798062915}
   m_Layer: 0
   m_Name: AI
   m_TagString: Untagged
@@ -1328,7 +1349,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 20
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1352,9 +1373,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ffd30d8c2e764cdda25fe24999b91c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 575464239}
-  canNav: 1
   holdTime: 1
+  player: {fileID: 575464239}
+--- !u!65 &1798062915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798062912}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 1, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1798062916
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1374,7 +1407,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f8ec7152fb81a471c88cfd04b77ca255, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1412,7 +1445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798062912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.69, y: 0.74, z: 0}
+  m_LocalPosition: {x: 10.28, y: 0.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
