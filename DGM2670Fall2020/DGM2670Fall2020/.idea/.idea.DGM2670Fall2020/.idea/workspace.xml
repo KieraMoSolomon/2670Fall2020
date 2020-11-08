@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterLookAtMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PointFromMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIPatrolBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIBehaviour.cs" />
       </list>
     </option>
