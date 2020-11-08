@@ -12,6 +12,7 @@ public class AIBehaviour : MonoBehaviour
     private WaitForSeconds wfs;
     private void Start()
     {
+        wffu = new WaitForFixedUpdate();
         wfs = new WaitForSeconds(holdTime);
         agent = GetComponent<NavMeshAgent>();
     }

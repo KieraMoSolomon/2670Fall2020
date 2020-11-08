@@ -10,6 +10,7 @@
             <e p="ApplyForce.cs" t="Include" />
             <e p="ChangeMovePattern.cs" t="Include" />
             <e p="CharacterKnockBack.cs" t="Include" />
+            <e p="CharacterLookAtMouse.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
             <e p="CharacterSpawn.cs" t="Include" />
             <e p="CheckPoint.cs" t="Include" />
@@ -18,6 +19,7 @@
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventBehaviour.cs" t="Include" />
+            <e p="PointFromMouse.cs" t="Include" />
             <e p="SelfDestruct.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>

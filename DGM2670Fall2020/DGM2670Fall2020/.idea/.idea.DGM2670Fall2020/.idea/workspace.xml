@@ -57,6 +57,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/MoveData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PointFromMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterLookAtMouse.cs" />
       </list>
     </option>
   </component>
