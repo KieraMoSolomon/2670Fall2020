@@ -12,6 +12,7 @@
           <e p="Behaviours" t="Include">
             <e p="ApplyForce.cs" t="Include" />
             <e p="ChangeMovePattern.cs" t="Include" />
+            <e p="CharacterBehaviour.cs" t="Include" />
             <e p="CharacterKnockBack.cs" t="Include" />
             <e p="CharacterLookAtMouse.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
