@@ -50,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterKnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
@@ -63,6 +62,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PointFromMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIPatrolBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
       </list>
     </option>
   </component>

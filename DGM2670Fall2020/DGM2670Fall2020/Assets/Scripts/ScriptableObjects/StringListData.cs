@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class StringListData : ScriptableObject
 {
     public List<string> stringList;
-    private string returnValue;
 
+    private string returnValue;
     private int i;
 
     private void OnEnable()
