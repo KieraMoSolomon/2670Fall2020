@@ -46,7 +46,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/../../../2221Fall2020/DGM2221Fall2020/SandBoxWalkAndRun/New Unity Project/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Instancer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
@@ -63,6 +62,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIPatrolBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
       </list>
     </option>
   </component>
