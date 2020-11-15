@@ -11,6 +11,7 @@
           </e>
           <e p="Behaviours" t="Include">
             <e p="ApplyForce.cs" t="Include" />
+            <e p="AttachOnTrigger.cs" t="Include" />
             <e p="ChangeMovePattern.cs" t="Include" />
             <e p="CharacterBehaviour.cs" t="Include" />
             <e p="CharacterKnockBack.cs" t="Include" />
@@ -20,6 +21,7 @@
             <e p="CheckPoint.cs" t="Include" />
             <e p="DeathBehavior.cs" t="Include" />
             <e p="Instancer.cs" t="Include" />
+            <e p="InvokeBehaviour.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventBehaviour.cs" t="Include" />
