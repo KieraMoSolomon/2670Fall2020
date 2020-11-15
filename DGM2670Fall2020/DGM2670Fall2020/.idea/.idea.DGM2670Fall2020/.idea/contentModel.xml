@@ -27,9 +27,11 @@
             <e p="SelfDestruct.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>
+          <e p="CharacterWithStates.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="BoolData.cs" t="Include" />
+            <e p="CharacterStateMachineData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />

@@ -1,10 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class TriggerEventBehaviour : MonoBehaviour
 {
-    public UnityEvent triggerEnterEvent;
+    public UnityEvent triggerEnterEvent, triggerExitEvent;
     public float delayTime = 1f;
 
     private WaitForSeconds wfs;
@@ -17,5 +18,10 @@ public class TriggerEventBehaviour : MonoBehaviour
     {
         yield return wfs;
         triggerEnterEvent.Invoke();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        triggerExitEvent.Invoke();
     }
 }
