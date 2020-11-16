@@ -14,8 +14,10 @@
             <e p="AttachOnTrigger.cs" t="Include" />
             <e p="ChangeMovePattern.cs" t="Include" />
             <e p="CharacterBehaviour.cs" t="Include" />
+            <e p="CharacterBehaviourWithKnockBack.cs" t="Include" />
             <e p="CharacterKnockBack.cs" t="Include" />
             <e p="CharacterLookAtMouse.cs" t="Include" />
+            <e p="CharacterMoveHV.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
             <e p="CharacterSpawn.cs" t="Include" />
             <e p="CheckPoint.cs" t="Include" />
