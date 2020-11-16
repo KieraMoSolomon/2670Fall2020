@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterStateMachineData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIWithBrains.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterKnockBack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../2221Fall2020/DGM2221Fall2020/SandBoxWalkAndRun/New Unity Project/Assets/Scripts/ScriptableObjects/FloatData.cs" root0="SKIP_HIGHLIGHTING" />
@@ -26,7 +27,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
@@ -77,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/AnimationBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/animsStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ObjectPickUpBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIWithBrains.cs" />
       </list>
     </option>
   </component>

@@ -10,6 +10,7 @@
           <e p="AI" t="Include">
             <e p="AIBehaviour.cs" t="Include" />
             <e p="AIPatrolBehaviour.cs" t="Include" />
+            <e p="AIWithBrains.cs" t="Include" />
           </e>
           <e p="Behaviours" t="Include">
             <e p="ApplyForce.cs" t="Include" />
