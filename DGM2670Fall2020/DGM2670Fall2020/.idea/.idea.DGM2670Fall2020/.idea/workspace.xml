@@ -69,11 +69,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/InvokeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttachOnTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Instancer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
       </list>
     </option>
   </component>
