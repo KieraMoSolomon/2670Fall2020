@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/InvokeBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +72,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/InvokeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttachOnTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
       </list>
     </option>
   </component>

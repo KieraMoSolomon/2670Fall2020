@@ -36,6 +36,7 @@
             <e p="CharacterStateMachineData.cs" t="Include" />
             <e p="Debugger.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="GameAction.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="MoveData.cs" t="Include" />
             <e p="StringListData.cs" t="Include" />
