@@ -20,7 +20,6 @@ public class CharacterBehaviour : MonoBehaviour
     protected float yVar;
     private int jumpCount;
 
-    public UnityEvent onDeathEvent;
     private void OnEnable()
     {
         moveSpeed = normalSpeed;

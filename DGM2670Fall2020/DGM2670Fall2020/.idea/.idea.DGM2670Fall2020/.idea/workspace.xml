@@ -61,7 +61,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIPatrolBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StateMachineData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterStateMachineData.cs" />
@@ -74,8 +73,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/GameActionHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterBehaviourWithKnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMoveHV.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
       </list>
     </option>
   </component>
