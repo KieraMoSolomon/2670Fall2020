@@ -26,7 +26,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ChangeMovePattern.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
@@ -77,6 +76,7 @@
         <option value="$PROJECT_DIR$/Assets/AnimationStates.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/animsStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ObjectPickUpBehaviour.cs" />
       </list>
     </option>
   </component>
