@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class ApplyForce : MonoBehaviour
 {
@@ -8,13 +6,11 @@ public class ApplyForce : MonoBehaviour
     //run coroutine on a hit
     
     private Rigidbody rBody;
+    public Vector3 forces;
 
-    public FloatData force;
-
-    void Start()
+    public void OnApplyForce()
     {
         rBody = GetComponent<Rigidbody>();
-        var forceDirection = new Vector3(force.value, 0,0);
-        rBody.AddRelativeForce(forceDirection);
+        rBody.AddRelativeForce(forces);
     }
 }

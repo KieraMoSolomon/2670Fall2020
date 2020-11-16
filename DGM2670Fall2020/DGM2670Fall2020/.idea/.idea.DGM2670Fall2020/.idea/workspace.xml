@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/GameActionHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/CharacterStateMachineData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/AttachOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterKnockBack.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,7 +23,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/InputData.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/CharacterMovement.cs" />
@@ -49,11 +49,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/../../../2221Fall2020/DGM2221Fall2020/SandBoxWalkAndRun/New Unity Project/Assets/Scripts/ScriptableObjects/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Instancer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterKnockBack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ChangeMovePattern.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMovement.cs" />
@@ -72,7 +69,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterWithStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/InvokeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttachOnTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/GameActionHandler.cs" />
       </list>
     </option>
   </component>
