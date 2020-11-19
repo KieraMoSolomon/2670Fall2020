@@ -6,6 +6,9 @@
       <e p="Assets" t="Include">
         <e p="AnimationBehaviour.cs" t="Include" />
         <e p="animsStates.cs" t="Include" />
+        <e p="RayCastTry" t="Include">
+          <e p="CameraRay.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AI" t="Include">
             <e p="AIBehaviour.cs" t="Include" />

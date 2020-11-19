@@ -27,7 +27,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Score.cs" />
@@ -78,6 +77,7 @@
         <option value="$PROJECT_DIR$/Assets/animsStates.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ObjectPickUpBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AIWithBrains.cs" />
+        <option value="$PROJECT_DIR$/Assets/RayCastTry/CameraRay.cs" />
       </list>
     </option>
   </component>
